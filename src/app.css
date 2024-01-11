@@ -1,0 +1,15 @@
+.work{
+    background-color: rgb(36, 37, 37);
+    width: 1480px;
+    height: 830px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px 50px;
+}
+.poor{
+    text-align: center;
+    color: red;
+    z-index: 3;
+}
